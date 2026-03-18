@@ -3,7 +3,8 @@
 body {
   margin: 0px;
   padding: 0px;
-  background-color: #fcfcfc;
+  background-color: black;
+	color: #4AF626;
   font-family: 'Open Sans', sans-serif;
   font-size: 12pt;
 }
@@ -11,6 +12,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Open Sans', sans-serif;
   line-height: 1.1;
+	color: #4AF626;
 }
 
 h1 {
@@ -34,6 +36,7 @@ h4 {
 
 a {
   text-decoration: none;
+	color: #4AF626;
 }
 
 a img:hover {
@@ -50,12 +53,12 @@ abbr[title] {
 }
 
 ::selection {
-  color: white;
+  color: #121212;
   background: #81C784;
 }
 
 ::-moz-selection {
-  color: white;
+  color: #121212;
   background: #81C784;
 }
 
@@ -125,6 +128,7 @@ ul.social li a:hover {
   margin-right: auto;
   padding: 16px;
   max-width: 1100px;
+	background-color: black; /* dark solid color for dark mode */
 }
 
 #header-logo {
@@ -134,8 +138,8 @@ ul.social li a:hover {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  background-color: black;
-  color: white;
+  background-color: #4AF626;
+  color: black;
   font-size: 20pt;
   font-weight: bold;
 }
@@ -156,6 +160,7 @@ ul.social li a:hover {
   line-height: 1.5;
   display: flex;
   flex-direction: column;
+	color: #ffffff; /* white text for contrast */
 }
 
 #header-menu ul li {
@@ -271,7 +276,7 @@ ul.social li a:hover {
 
 #content hr {
   margin: 3rem auto 3rem auto;
-  border-color: #ccc;
+  border-color: green;
   border-width: 1px;
 }
 
