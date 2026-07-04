@@ -16,7 +16,7 @@
           {% if article.tags %}
           <div>
             {% for tag in article.tags %}
-            <span class="w3-tag w3-light-grey w3-text-green w3-hover-green">
+            <span class="tag-custom">
               <a href="{{ SITEURL }}/{{ tag.url }}" title="All articles with {{ tag.name.title() }} tag">#{{ tag }}</a>
             </span>
             {% endfor %}
@@ -45,7 +45,7 @@
 
         <footer>
           <div class="adjust-width">
-            <div id="author-block" class="w3-light-grey w3-border">
+						<div id="author-block">
               <div id="author-info">
                 <a href="{{ AUTHOR_WEB }}"><img class="avatar" src="{{ AUTHOR_AVATAR }}" onerror="this.src='theme/images/avatar.png'" alt="Avatar"></a>
                 <div style="margin-left: 20px;">
